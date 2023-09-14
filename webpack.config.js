@@ -10,10 +10,11 @@ module.exports = {
   },
   target: 'web',
   devServer: {
-    port: '3000',
+	  port: '80',
     static: {
       directory: path.join(__dirname, 'public')
     },
+    allowedHosts: "all",
     open: true,
     hot: true,
     liveReload: true,
