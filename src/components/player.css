@@ -1,0 +1,45 @@
+.Player {
+    height: 50px;
+    pointer-events: none;
+    position: absolute;
+    /* bottom: 50%;
+    left: 10%; */
+}
+
+.Fly {
+  animation: Spin infinite 1.5s linear;
+}
+
+.Float {
+  animation: Float infinite 3s ease-in-out;
+}
+
+@keyframes Spin { 
+  to {
+      transform: rotate(0deg);
+  }
+  from {
+      transform: rotate(-360deg);
+  }
+}
+
+@keyframes ReverseSpin { 
+  to {
+      transform: rotate(0deg);
+  }
+  from {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes Float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(3vh) rotate(120deg);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}

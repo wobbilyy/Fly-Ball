@@ -1,0 +1,56 @@
+.Game {
+    max-width: 1280px; /* 1280 */
+    max-height: 640px;
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    border: 0.5rem solid #EEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("./assets/background/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+
+    text-align: center;
+    z-index: 0;
+}
+
+.LoadScreen {
+    max-width: 1280px;
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    border: 0.5rem solid #EEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    text-align: center;
+    z-index: 1;
+}
+
+/* .StartButton {
+    color: 'white';
+    font-family: curvsive
+} */
+
+.Title {
+    position: relative;
+    z-index: 1;
+
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.Score {
+    position: relative;
+    z-index: 1;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}

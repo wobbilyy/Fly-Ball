@@ -1,0 +1,33 @@
+.Ground {
+    position: absolute;
+    width: 100vh;
+    height: 11%;
+    right: 51vh;
+    bottom: 0;
+}
+
+.Ground2 {
+    position: absolute;
+    width: 100vh;
+    height: 11%;
+    left: 51vh;
+    bottom: 0;
+}
+
+.Ground3 {
+    position: absolute;
+    width: 100vh;
+    height: 11%;
+    right: -100vh;
+    bottom: 0;
+}
+
+.Translate {
+  animation: Translate infinite 4s linear;
+}
+
+@keyframes Translate {
+    100% {
+      transform: translateX(-97vh);
+    }
+}
